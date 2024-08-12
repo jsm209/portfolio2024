@@ -1,29 +1,29 @@
 :root {
-    --primary-color: #007bff;
-    --hover-color: #649dd9;
-    --spacing-md: 16px;
-    --large-font-size: 20px;
-  }
+  --primary-color: #007bff;
+  --hover-color: #649dd9;
+  --spacing-md: 16px;
+  --large-font-size: 20px;
+}
 
 /* SocialMediaLinks.module.css */
 .socialMediaLinks {
-    display: flex;
-    gap: var(--spacing-md); /* Use spacing from global styles */
-    justify-content: flex-start;
-    padding: var(--spacing-md);
+  display: flex;
+  gap: var(--spacing-md); /* Use spacing from global styles */
+  justify-content: flex-start;
+  padding: var(--spacing-md);
 }
 
 .socialLink {
-    color: var(--primary-color); /* Use color from global styles */
-    font-size: var(--large-font-size); /* Use font size from global styles */
-    text-decoration: none;
-    transition: color 0.3s ease;
+  color: var(--primary-color); /* Use color from global styles */
+  font-size: var(--large-font-size); /* Use font size from global styles */
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .socialLink:hover {
-    color: var(--hover-color); /* Use a different color on hover */
+  color: var(--hover-color); /* Use a different color on hover */
 }
 
 .socialLink i {
-    font-size: 24px; /* Adjust icon size as needed */
+  font-size: 24px; /* Adjust icon size as needed */
 }
