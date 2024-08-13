@@ -30,7 +30,7 @@ const Timeline = () => {
             background: GLOBALSTYLES.colors.background,
             color: "#fff",
           }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "rgb(226, 0, 116)", color: "#fff" }}
           //icon={<i className={`fab ${"fa-github"}`}></i>}
         >
           <h2 className={styles.verticalTimelineElementTitle}>T-Mobile</h2>
@@ -42,7 +42,7 @@ const Timeline = () => {
             Experience) which allows T-Mobile sales representatives to sell
             Metro products and complete orders during telesales.
           </p>
-          <p>2024 - Present</p>
+          <p>2023 - Present</p>
           <div className={styles.pillContainer}>
             <span>Angular</span>
             <span>Typescript</span>
@@ -58,7 +58,7 @@ const Timeline = () => {
             background: GLOBALSTYLES.colors.background,
             color: "#fff",
           }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "rgb(226, 0, 116)", color: "#fff" }}
           //icon={<i className={`fab ${"fa-github"}`}></i>}
         >
           <h2 className={styles.verticalTimelineElementTitle}>T-Mobile</h2>
@@ -95,7 +95,7 @@ const Timeline = () => {
             background: GLOBALSTYLES.colors.background,
             color: "#fff",
           }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "rgb(226, 0, 116)", color: "#fff" }}
           //icon={<i className={`fab ${"fa-github"}`}></i>}
         >
           <h2 className={styles.verticalTimelineElementTitle}>T-Mobile</h2>
@@ -131,7 +131,7 @@ const Timeline = () => {
             background: GLOBALSTYLES.colors.background,
             color: "#fff",
           }}
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+          iconStyle={{ background: "rgb(57, 39, 91)", color: "#fff" }}
           //icon={<i className={`fab ${"fa-github"}`}></i>}
         >
           <h2 className={styles.verticalTimelineElementTitle}>
