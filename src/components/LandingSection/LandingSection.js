@@ -9,8 +9,8 @@ const LandingSection = () => {
   const navLinks = [
     { href: "#about", text: "About" },
     { href: "#experience", text: "Experience" },
-    { href: "#projects", text: "Projects" },
-    { href: "#music", text: "Music" },
+    // { href: "#projects", text: "Projects" },
+    // { href: "#music", text: "Music" },
   ];
 
   return (
@@ -24,25 +24,31 @@ const LandingSection = () => {
         <SocialMediaLinks />
       </div>
       <div className={styles.item}>
+        <h2>Eyes, Ears, Both</h2>
         <p>
           Hi, I'm Josh and I'm currently a software engineer and iOS developer
-          for T-Mobile. Through my work I've grown a passion for UI development,
-          and worked in diverse teams to improve the user experience for several
-          consumer facing applications.
+          for T-Mobile with over 3 years of full time experience. My key strengths 
+          include a high degree of self autonomy and skill for self teaching and quick 
+          learning, and managing time and tasks in cross team collaboration. I have strong 
+          communication skills for navigating spaces in the face of ambiguity, and passionate 
+          about contributing and working with others.
         </p>
         <p>
           I graduated from the University Of Washington, Seattle in 2021 and
           majored in Informatics and minored in Entrepreneurship. I'm passionate
           about web and game development, as well as audio engineering and music
           production, and love to learn and apply myself in original and
-          challenging personal projects.
+          challenging personal projects. In my spare time you can find me entering 
+          the ocasional gamejam (building a themed game in a short amount of time)
+          or producing electronic dance music.
         </p>
-        <p>
-          Whether it be through creating web apps, developing games, or
-          producing music, growth, impact, and accessibility are always values
-          at the forefront of my creative process. Through my passions, I hope
-          to grow in my technical skills and create memorable and universal
-          experiences in my work.
+        <p>With a deep passion for creativity, I thrive in applying my artistic 
+            sensibilities even in technical settings. Whether I'm designing web 
+            and iOS apps, developing games, or producing music, my ability to 
+            blend creativity with technical expertise allows me to make a significant 
+            impact as an engineer. I bring a unique perspective to every project, 
+            ensuring that the experiences I create are not only functional but also 
+            resonate on a deeper level
         </p>
       </div>
     </div>

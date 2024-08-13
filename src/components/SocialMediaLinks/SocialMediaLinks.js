@@ -5,24 +5,29 @@ import GLOBALSTYLES from "../../styles/globalStyles";
 const SocialMediaLinks = () => {
   const links = [
     {
-      href: "https://www.linkedin.com/in/your-profile",
+      href: "https://www.linkedin.com/in/joshuasmaza/",
       icon: "fa-linkedin",
       label: "LinkedIn",
     },
     {
-      href: "https://github.com/your-profile",
+      href: "https://github.com/jsm209",
       icon: "fa-github",
       label: "GitHub",
     },
     {
-      href: "https://twitter.com/your-profile",
-      icon: "fa-twitter",
-      label: "Twitter",
+      href: "https://mazaa.itch.io",
+      icon: "fa-itch-io",
+      label: "Itch-io",
     },
     {
-      href: "https://www.instagram.com/your-profile",
-      icon: "fa-instagram",
-      label: "Instagram",
+        href: "https://open.spotify.com/artist/6VqLTxzQnYAUsSxxlwJ6lK",
+        icon: "fa-spotify",
+        label: "Spotify",
+    },
+    {
+    href: "https://soundcloud.com/mazaamusic",
+    icon: "fa-soundcloud",
+    label: "Soundcloud",
     },
   ];
 
