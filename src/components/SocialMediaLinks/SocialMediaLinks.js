@@ -20,14 +20,14 @@ const SocialMediaLinks = () => {
       label: "Itch-io",
     },
     {
-        href: "https://open.spotify.com/artist/6VqLTxzQnYAUsSxxlwJ6lK",
-        icon: "fa-spotify",
-        label: "Spotify",
+      href: "https://open.spotify.com/artist/6VqLTxzQnYAUsSxxlwJ6lK",
+      icon: "fa-spotify",
+      label: "Spotify",
     },
     {
-    href: "https://soundcloud.com/mazaamusic",
-    icon: "fa-soundcloud",
-    label: "Soundcloud",
+      href: "https://soundcloud.com/mazaamusic",
+      icon: "fa-soundcloud",
+      label: "Soundcloud",
     },
   ];
 

@@ -12,7 +12,7 @@ const GLOBALSTYLES = {
     white: "#ffffff",
     black: "#000000",
     background: "#0f0f0f",
-    secondaryBackground: "#2C2C2C"
+    secondaryBackground: "#2C2C2C",
   },
 
   spacing: {

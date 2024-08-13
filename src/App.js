@@ -13,7 +13,7 @@ function App() {
     "--title-font-size": GLOBALSTYLES.typography.fontSizeExtraLarge,
     "--title-bold-weight": GLOBALSTYLES.typography.fontWeightBold,
     "--heading-font-size": GLOBALSTYLES.typography.fontSizeLarge,
-    "--subheading-font-size": GLOBALSTYLES.typography.fontSizeBase
+    "--subheading-font-size": GLOBALSTYLES.typography.fontSizeBase,
   };
 
   return (

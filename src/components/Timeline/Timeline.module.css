@@ -1,47 +1,48 @@
 :root {
-    --primary-color: #007bff;
-    --font-family: "sans serif";
-    --background-color: #ffffff;
-    --heading-font-size: 20px;
-    --heading-bold-weight: 700;
-    --subheading-font-size: 16px;
-    --content-font-size: 16px;
-    --small-font-size: 12px;
+  --primary-color: #007bff;
+  --font-family: "sans serif";
+  --background-color: #ffffff;
+  --heading-font-size: 20px;
+  --heading-bold-weight: 700;
+  --subheading-font-size: 16px;
+  --content-font-size: 16px;
+  --small-font-size: 12px;
 }
 
 .verticalTimelineElementTitle {
-    color: var(--primary-color) !important;
+  color: var(--primary-color) !important;
 }
 
 .verticalTimelineElementDate {
-    font-size: var(--content-font-size);
-    color: var(--primary-color);
-    font-family: var(--font-family);
-    text-align: left;
- }
+  font-size: var(--content-font-size);
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  text-align: left;
+}
 
- .pillContainer {
-    display: flex;
-    gap: 4px; /* Adds space between the pills */
-    flex-wrap: wrap; /* Allows pills to wrap to the next line if needed */
-    padding-top: 20px;
+.pillContainer {
+  display: flex;
+  gap: 4px; /* Adds space between the pills */
+  flex-wrap: wrap; /* Allows pills to wrap to the next line if needed */
+  padding-top: 20px;
 }
 
 .pillContainer span {
-    font-size: var(--small-font-size);
-    color: var(--primary-color);
-    font-family: var(--font-family);
-    text-align: center;
-    background-color: var(--background-color); /* Optional: Change to a background color that contrasts with the text */
-    border-radius: 20px; /* Rounds the corners to create the pill shape */
-    padding: 6px 12px; /* Adds padding inside the pills */
-    white-space: nowrap; /* Prevents text from wrapping inside the pill */
-    cursor: pointer; /* Changes cursor to pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth transition for background color */
+  font-size: var(--small-font-size);
+  color: var(--primary-color);
+  font-family: var(--font-family);
+  text-align: center;
+  background-color: var(
+    --background-color
+  ); /* Optional: Change to a background color that contrasts with the text */
+  border-radius: 20px; /* Rounds the corners to create the pill shape */
+  padding: 6px 12px; /* Adds padding inside the pills */
+  white-space: nowrap; /* Prevents text from wrapping inside the pill */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
 .pillContainer span:hover {
-    background-color: var(--primary-color); /* Change background on hover */
-    color: var(--background-color); /* Change text color on hover */
+  background-color: var(--primary-color); /* Change background on hover */
+  color: var(--background-color); /* Change text color on hover */
 }
-

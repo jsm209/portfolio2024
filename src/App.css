@@ -56,7 +56,10 @@
   }
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
   color: var(--text-color);
   font-family: var(--font-family);
   text-align: left;
