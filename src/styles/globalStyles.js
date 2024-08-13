@@ -12,6 +12,7 @@ const GLOBALSTYLES = {
     white: "#ffffff",
     black: "#000000",
     background: "#0f0f0f",
+    secondaryBackground: "#2C2C2C"
   },
 
   spacing: {
@@ -25,7 +26,7 @@ const GLOBALSTYLES = {
   typography: {
     fontFamily: "'Quicksand', sans-serif",
     fontSizeBase: "16px",
-    fontSizeLarge: "20px",
+    fontSizeLarge: "28px",
     fontSizeExtraLarge: "40px",
     fontSizeSmall: "12px",
     fontWeightNormal: "400",

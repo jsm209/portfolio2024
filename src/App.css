@@ -1,8 +1,12 @@
 :root {
   --text-color: #007bff;
-  --p-font-size: 12px;
+  --content-font-size: 12px;
   --font-family: "sans-serif";
   --background-color: #0f0f0f;
+  --title-font-size: 20px;
+  --title-bold-weight: 700;
+  --heading-font-size: 20px;
+  --subheading-font-size: 16px;
 }
 
 .App {
@@ -13,7 +17,8 @@
     16rem
   ); /* Minimum 1rem, preferred 2vw, maximum 4rem */
   background-color: var(--background-color);
-  height: 100vh;
+  height: 100%;
+  margin: 0;
 }
 
 .App-logo {
@@ -51,9 +56,25 @@
   }
 }
 
-p {
+h1, h2, h3, p {
   color: var(--text-color);
-  font-size: var(--p-font-size);
   font-family: var(--font-family);
   text-align: left;
+}
+
+p {
+  font-size: var(--p-font-size);
+}
+
+h1 {
+  font-size: var(--title-font-size);
+  font-weight: var(--title-bold-weight);
+}
+
+h2 {
+  font-size: var(--heading-font-size);
+}
+
+h3 {
+  font-size: var(--subheading-font-size);
 }
