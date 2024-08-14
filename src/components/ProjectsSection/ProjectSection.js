@@ -24,7 +24,7 @@ const ProjectSection = () => {
         <ProjectSummary
           title="FPL Assist"
           description="This is a collection of data visualization tools specifically built for consuming the data about Fantasy Premier League (FPL) players, teams, and fixtures. This is useful to you because they can be used to help shorten the time it takes for you to decide select which players to transfer in a given week by showing relationships not found in the FPL app or website."
-          tags={["JavaScript", "React", "Vercel", "NextJS", "Chart."]}
+          tags={["JavaScript", "React", "Vercel", "NextJS", "ChartJS"]}
           imagesrc="/fplassist.png"
           link="https://fpl-suggestions-cnvioo18k-jsm209.vercel.app"
         />
