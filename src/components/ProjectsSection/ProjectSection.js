@@ -18,7 +18,7 @@ const ProjectSection = () => {
             "Google Cloud Platform (GCP)",
             "Firebase",
           ]}
-          imagesrc="/portfoliosite.png"
+          imagesrc="/portfoliosite.PNG"
           link="https://joshuamaza.com"
         />
         <ProjectSummary
