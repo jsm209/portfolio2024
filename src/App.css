@@ -1,5 +1,6 @@
 :root {
   --text-color: #007bff;
+  --secondary-color: #6c757d;
   --content-font-size: 12px;
   --font-family: "sans-serif";
   --background-color: #0f0f0f;
@@ -59,10 +60,16 @@
 h1,
 h2,
 h3,
-p {
+p,
+li {
   color: var(--text-color);
   font-family: var(--font-family);
   text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
 }
 
 p {

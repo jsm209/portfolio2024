@@ -22,7 +22,7 @@ const Timeline = () => {
 
   return (
     <div style={styleVariables}>
-      <h2 id="experience">Experience</h2>
+      <h1 id="experience">Experience</h1>
       <VerticalTimeline>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
