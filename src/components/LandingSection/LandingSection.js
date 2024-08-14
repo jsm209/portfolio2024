@@ -9,9 +9,8 @@ const LandingSection = () => {
   const navLinks = [
     { href: "#", text: "About" },
     { href: "#experience", text: "Experience" },
+    { href: "#projects", text: "Projects" },
     { href: "#music", text: "Music" },
-    // { href: "#projects", text: "Projects" },
-    // { href: "#music", text: "Music" },
   ];
 
   return (

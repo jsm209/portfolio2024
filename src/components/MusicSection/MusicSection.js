@@ -9,19 +9,19 @@ const MusicSection = () => {
       <h1 id="music">Music</h1>
       <div>
         <p>
-          <b>MAZAA</b> is my personal music brand. For the past 7 years I have been
-          self taught in audio and DJing. I built a foundation in music production 
-          through online classes, YouTube, and meeting other producers and mixing 
-          engineers in Seattle. Below you can find a bit of my discography. For more, 
-          visit my Spotify or Soundcloud profile.
+          <b>MAZAA</b> is my personal music brand. For the past 7 years I have
+          been self taught in audio and DJing. I built a foundation in music
+          production through online classes, YouTube, and meeting other
+          producers and mixing engineers in Seattle. Below you can find a bit of
+          my discography. For more, visit my Spotify or Soundcloud profile.
         </p>
         <p>
-          <b>Emerald Noise</b> is an online business I started in 2024 for providing
-          production and mixing services, as well as providing consultation and
-          lessons. It started from helping out friends to now serving a growing
-          clientbase of other musicians. As of now due to my schedule and
-          workload, it is not open to the public yet but will be in the near
-          future.
+          <b>Emerald Noise</b> is an online business I started in 2024 for
+          providing production and mixing services, as well as providing
+          consultation and lessons. It started from helping out friends to now
+          serving a growing clientbase of other musicians. As of now due to my
+          schedule and workload, it is not open to the public yet but will be in
+          the near future.
         </p>
       </div>
       <div>

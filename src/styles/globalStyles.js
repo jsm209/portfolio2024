@@ -3,6 +3,7 @@ const GLOBALSTYLES = {
   colors: {
     primary: "#ffffff",
     secondary: "#6c757d",
+    link: "#60A5FA",
     success: "#28a745",
     danger: "#dc3545",
     warning: "#ffc107",

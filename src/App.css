@@ -1,5 +1,6 @@
 :root {
   --text-color: #007bff;
+  --link-color: #60a5fa;
   --secondary-color: #6c757d;
   --content-font-size: 12px;
   --font-family: "sans-serif";
@@ -61,7 +62,8 @@ h1,
 h2,
 h3,
 p,
-li {
+li,
+a {
   color: var(--text-color);
   font-family: var(--font-family);
   text-align: left;
@@ -69,7 +71,7 @@ li {
 
 a {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--link-color);
 }
 
 p {
